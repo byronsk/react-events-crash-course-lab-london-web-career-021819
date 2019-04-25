@@ -21,10 +21,10 @@ export default class ChromeBoisDomain extends Component {
    */
 
    handleResize = event => {
-     if (event.key === "a") {
-     resize("+")
-   } else if (event.key === "s") {
-     resize("-")
+     if (event.key === 'a') {
+     resize('+')
+   } else if (event.key === 's') {
+     resize('-')
    }
  }
 
